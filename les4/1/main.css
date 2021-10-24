@@ -1,0 +1,26 @@
+
+
+.xxx {
+    background: blueviolet;
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.a{
+    width: 1600px;
+    height: 600px;
+    background: deeppink;
+    align-self: flex-start;
+}
+.b {
+    width: 1300px;
+    height: 600px;
+    background: springgreen;
+}
+.c {
+    width: 300px;
+    height: 600px;
+    background: coral;
+}
