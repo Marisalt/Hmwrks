@@ -1,0 +1,38 @@
+.header {
+    background: blueviolet;
+    height: 100px;
+    border: 5px solid khaki;
+}
+
+.nav {
+    background: deeppink;
+    height: 100px;
+    border: 5px solid darkcyan;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main {
+    background: darkgreen;
+    border: 5px solid violet;
+    flex-grow: 2;
+    height: 300px;
+
+}
+
+.aside {
+    background: darkgoldenrod;
+    border: 5px solid darkblue;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.footer {
+    background: cyan;
+    height: 200px;
+    border: 5px solid darkred;
+}
