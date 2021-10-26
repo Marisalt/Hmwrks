@@ -1,6 +1,6 @@
 .header {
     background: blueviolet;
-    height: 100px;
+    height: 230px;
     border: 5px solid khaki;
 }
 
@@ -13,7 +13,6 @@
 .block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .main {
@@ -33,6 +32,6 @@
 
 .footer {
     background: cyan;
-    height: 200px;
+    height: 230px;
     border: 5px solid darkred;
 }
