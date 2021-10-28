@@ -1,0 +1,33 @@
+    #header{
+        background: blueviolet;
+        height: 50px;
+        width: 100%;
+    }
+    #menu{
+        background: darkcyan;
+        width: 600px;
+        height: 750px;
+        margin-top: 10px;
+    }
+    .post{
+        background: coral;
+        width: 1300px;
+        height: 330px;
+        margin: 20px;
+    }
+    .posts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    #footer{
+        height: 70px;
+        margin-top: 10px;
+        background: springgreen;
+    }

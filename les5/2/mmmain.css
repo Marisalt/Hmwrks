@@ -1,0 +1,36 @@
+.height230 {
+    height: 230px;
+}
+.height300 {
+    height: 300px;
+}
+.border5xp {
+    border: 5px solid darkblue;
+}
+.header {
+    background: blueviolet;
+}
+
+.nav {
+    background: deeppink;
+    height: 100px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    background: darkgreen;
+    flex-grow: 2;
+}
+
+.aside {
+    background: darkgoldenrod;
+    flex-grow: 1;
+}
+
+.footer {
+    background: cyan;
+}

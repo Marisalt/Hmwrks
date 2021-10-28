@@ -1,0 +1,25 @@
+.width1600 {
+    width: 1600px;
+}
+.height600 {
+    height: 600px;
+}
+
+.xxx {
+    background: blueviolet;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.a{
+    background: deeppink;
+    align-self: flex-start;
+}
+.b {
+    width: 1300px;
+    background: springgreen;
+}
+.c {
+    width: 300px;
+    background: coral;
+}
