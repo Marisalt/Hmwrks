@@ -1,0 +1,44 @@
+@media screen and (max-height: 634px) and (max-width: 400px) {
+    .xxx {
+        background: darkcyan;
+    }
+    .a {
+        background: darkred;
+    }
+    .b {
+        background: violet;
+    }
+    .c {
+        background: forestgreen;
+    }
+}
+
+.width1600 {
+    width: 1600px;
+}
+
+.height600 {
+    height: 600px;
+}
+
+.xxx {
+    background: blueviolet;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.a {
+    background: deeppink;
+    align-self: flex-start;
+}
+
+.b {
+    width: 1300px;
+    background: springgreen;
+}
+
+.c {
+    width: 300px;
+    background: coral;
+}

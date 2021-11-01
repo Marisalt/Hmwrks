@@ -1,0 +1,32 @@
+.height150 {
+    height: 150px;
+}
+.border5{
+    border: 5px solid midnightblue;
+}
+.widgest{
+    background: fuchsia;
+    padding: 5px;
+    margin: 0 auto;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.A{
+    width: 150px;
+    height: 500px;
+    background:darkcyan ;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact{
+    background: blueviolet;
+    padding: 5px;
+}
