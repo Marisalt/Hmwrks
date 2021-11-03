@@ -1,14 +1,20 @@
-@media screen and (max-height: 634px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
     .xxx {
         background: darkcyan;
     }
+
     .a {
+        width: 400px;
         background: darkred;
     }
+
     .b {
+        width: 300px;
         background: violet;
     }
+
     .c {
+        width: 100px;
         background: forestgreen;
     }
 }

@@ -1,4 +1,20 @@
-.height60 {
+@media screen and (min-width: 0px) and (max-width: 482px) {
+    #header {
+        height:20px;
+        width:480px;
+    }
+
+    #footer {
+        height:20px;
+        width:480px;
+    }
+    .post {
+        height: 230px;
+        width: 150px;
+    }
+}
+
+.height120 {
     height: 120px;
 }
 
@@ -16,7 +32,7 @@
 
 .post {
     background: coral;
-    width: 1600px;
+    width: 1200px;
     height: 240px;
     margin: 20px;
 }

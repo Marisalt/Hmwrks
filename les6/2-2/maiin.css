@@ -1,3 +1,17 @@
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .widgest{
+        background: chartreuse;
+        height: 100px;
+    }
+    .A{
+        background: coral;
+        height: 350px;
+    }
+    .contact{
+        background: olive;
+        height: 100px;
+    }
+}
 .height150 {
     height: 150px;
 }

@@ -1,12 +1,37 @@
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .header {
+        height: 150px;
+    }
+
+    .nav {
+        height: 70px;
+    }
+
+    .main {
+        height: 230px;
+    }
+
+    .aside {
+        height: 230px;
+    }
+
+    .footer {
+        height: 150px;
+    }
+}
+
 .height230 {
     height: 230px;
 }
+
 .height300 {
     height: 300px;
 }
+
 .border5xp {
     border: 5px solid darkblue;
 }
+
 .header {
     background: blueviolet;
 }
