@@ -9,10 +9,12 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .header div {
     color: #ffffff;
     cursor: pointer;
 }
+
 .neheader {
     width: 1920px;
     height: 196px;
@@ -25,6 +27,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .catalog {
     color: white;
     width: 164px;
@@ -35,6 +38,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #searchlnput {
     width: 549px;
     height: 53px;
@@ -43,6 +47,7 @@
     background: #F4F5FA;
     border-radius: 6px 0px 0px 6px;
 }
+
 #searchButton {
     width: 101px;
     height: 53px;
@@ -50,14 +55,17 @@
     top: 159px;
     background: #005BB9;
     border-radius: 0px 6px 6px 0px;
+    color: white;
 }
+
 #searchContent {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
 }
-#searchButto {
+
+.searchButto {
     width: 160px;
     height: 49px;
     left: 428px;
@@ -65,11 +73,58 @@
     background: #005BB9;
     border-radius: 6px;
 }
-.buyButton{
-width: 57px;
-height: 49px;
-left: 1565px;
-top: 383px;
-background: #005BB9;
-border-radius: 6px;
+
+.buyButton {
+    width: 57px;
+    height: 49px;
+    left: 1565px;
+    top: 383px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+
+.goButton {
+    color: #FFFFFF;
+    width: 86px;
+    height: 26px;
+    left: 313px;
+    top: 850px;
+    background: #005BB9;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.whoButton {
+    width: 241px;
+    height: 55px;
+    left: 283px;
+    top: 976px;
+    background: #005BB9;
+    border-radius: 6px;
+    color: white;
+}
+
+.iButton {
+    width: 123px;
+    height: 55px;
+    left: 544px;
+    top: 976px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #005BB9;
+}
+
+.youButton {
+    width: 229px;
+    height: 55px;
+    left: 687px;
+    top: 976px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #005BB9;
+}
+.marginBlock div {
+    margin-right: 60px;
 }
