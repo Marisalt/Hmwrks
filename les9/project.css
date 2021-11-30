@@ -128,3 +128,12 @@
 .marginBlock div {
     margin-right: 60px;
 }
+.etoButton {
+    width: 187px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #005BB9;
+}
