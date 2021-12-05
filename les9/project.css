@@ -9,7 +9,15 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+.mobileHeader {
+    width: 375px;
+    height: 36px;
+    background: #0F2438;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 .header div {
     color: #ffffff;
     cursor: pointer;
@@ -148,4 +156,18 @@
 }
 .socialRefs img{
     margin-left: 30px;
+}
+
+@media only screen and (max-width: 1280px) and (max-width: 1920px) {
+    .mobileHeader {
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .header {
+        display: none;
+    }
+    .mobileHeader {
+        display: block;
+    }
 }
