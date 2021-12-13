@@ -9,16 +9,23 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 .mobileHeader {
     width: 375px;
     height: 36px;
     background: #0F2438;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
 .header div {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mobileHeader div {
     color: #ffffff;
     cursor: pointer;
 }
@@ -36,9 +43,22 @@
     align-items: center;
 }
 
+.mobileNeheader {
+    width: 375px;
+    height: 196px;
+    left: 0px;
+    top: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .catalog {
     color: white;
-    width: 164px;
+    width: 50px;
     height: 53px;
     background: #005BB9;
     border-radius: 6px;
@@ -56,8 +76,27 @@
     border-radius: 6px 0px 0px 6px;
 }
 
+#mobileSearchlnput {
+    width: 250px;
+    height: 53px;
+    left: 477px;
+    top: 159px;
+    background: #F4F5FA;
+    border-radius: 6px 0px 0px 6px;
+}
+
 #searchButton {
     width: 101px;
+    height: 53px;
+    left: 1025px;
+    top: 159px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
+}
+
+#mobileSearchButton {
+    width: 50px;
     height: 53px;
     left: 1025px;
     top: 159px;
@@ -73,6 +112,23 @@
     margin-top: 10px;
 }
 
+#mobileSearchContent {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 375px;
+}
+
+#poster {
+    display: flex;
+}
+
+#mobilePoster {
+    display: none;
+    margin-top: 20px;
+}
+
 .searchButto {
     width: 160px;
     height: 49px;
@@ -80,6 +136,14 @@
     top: 515px;
     background: #005BB9;
     border-radius: 6px;
+}
+
+#sales {
+    display: block;
+}
+
+#mobileSales {
+    display: none;
 }
 
 .buyButton {
@@ -91,6 +155,14 @@
     border-radius: 6px;
 }
 
+#mobileRecommendations {
+    display: none;
+}
+
+#recommendations {
+    display: flex;
+}
+
 .goButton {
     color: #FFFFFF;
     width: 86px;
@@ -100,6 +172,14 @@
     background: #005BB9;
     border-radius: 4px;
     text-align: center;
+}
+
+#buttons {
+    display: flex;
+}
+
+#mobileButtons {
+    display: none;
 }
 
 .whoButton {
@@ -133,9 +213,11 @@
     border-radius: 6px;
     color: #005BB9;
 }
+
 .marginBlock div {
     margin-right: 60px;
 }
+
 .etoButton {
     width: 187px;
     height: 49px;
@@ -145,7 +227,8 @@
     border-radius: 6px;
     color: #005BB9;
 }
-#emailSendButton{
+
+#emailSendButton {
     width: 177px;
     height: 40px;
     left: 1460px;
@@ -154,20 +237,71 @@
     border-radius: 0px 6px 6px 0px;
     color: white;
 }
-.socialRefs img{
+
+.socialRefs img {
     margin-left: 30px;
 }
 
 @media only screen and (max-width: 1280px) and (max-width: 1920px) {
-    .mobileHeader {
-        display: none;
-    }
+
 }
-@media only screen and (max-width: 375px) {
+
+@media only screen and (max-width: 380px) {
     .header {
         display: none;
     }
+
     .mobileHeader {
+        display: flex;
+    }
+
+    .mobileNeHeader {
+        display: flex;
+    }
+
+    .neheader {
+        display: none;
+    }
+
+    #searchContent {
+        display: none;
+    }
+
+    #mobileSearchContent {
+        display: flex;
+    }
+
+    #poster {
+        display: none
+    }
+
+    #mobilePoster {
+        display: flex;
+    }
+
+    #sales {
+        display: none;
+    }
+
+    #mobileSales {
         display: block;
+    }
+
+    #recommendations {
+        display: none;
+    }
+
+    #mobileRecommendations {
+        display: block;
+        margin-top: -70px;
+    }
+
+   #buttons {
+        display: none;
+   }
+
+    #mobileButtons {
+        display: flex;
+        margin-top: 20px;
     }
 }

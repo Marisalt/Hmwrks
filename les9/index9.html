@@ -25,10 +25,9 @@
     <div>О магазине</div>
     <div>Контакты</div>
 </div>
-<div class="mobileHeader"; style="display: flex">
-    <div>Ещё</div>
+<div class="mobileHeader">
     <div>Ваш город: Москва</div>
-
+    <div>Ещё</div>
 </div>
 
 <div class="neheader">
@@ -48,7 +47,20 @@
         <img src="imag/Groo.png" alt="Groo">
     </div>
 </div>
-<div id="searchContent" class="d-flex justify-content-around">
+<div class="mobileNeheader" style="display: flex; flex-direction: row">
+    <div>
+        <img src="imag/Grou.png" style="width: 180px; height: 60px" alt="Grou">
+    </div>
+    <div>
+        <div>
+            <img src="imag/Grrou.png" alt="Grrou">
+        </div>
+        <div>
+            <img src="imag/Groo.png" alt="Groo">
+        </div>
+    </div>
+</div>
+<div id="searchContent">
     <div class="catalog">
         <img src="imag/ooo.png" alt="ooo">
         Каталог
@@ -61,7 +73,16 @@
         <img src="imag/Grouu.png" alt="Grouu">
     </div>
 </div>
-<div style="margin-left: 380px">
+<div id="mobileSearchContent">
+    <div class="catalog">
+        <img src="imag/ooo.png" alt="ooo">
+    </div>
+    <input type="text" placeholder="Поиск по наименованию или артикулу" id="mobileSearchlnput">
+    <button id="mobileSearchButton">
+        <img src="imag/lupa.png" alt="lupa">
+    </button>
+</div>
+<div id="poster" style="margin-left: 380px">
     <img style="position: absolute" src="imag/stena.png" alt="stena">
     <div style="position: relative; display: flex; flex-direction:row">
         <div style="margin-left: 120px; margin-top: 100px">
@@ -73,6 +94,37 @@
             </button>
         </div>
         <img src="imag/col.png" alt="col">
+    </div>
+</div>
+<div id="mobilePoster">
+    <img style="position: absolute; border-radius: 12px; margin-left: 8px; width: 360px; height: 300px;"
+         src="imag/stena.png" alt="stena">
+    <div style="margin-top: 40px; margin-left: 10px; position: relative; display: flex; flex-direction:row">
+        <div>
+            <div style="color: #0A1A2C; font-size: 24px" ;>Сцепление в сборе</div>
+            <div style="color: #717171; font-size: 24px" ;>0AMCLUTCH</div>
+            <div style="color: #005BB9; font-size: 24px" ;>14 499,99 ₽</div>
+            <button class="searchButto">
+                <img src="imag/qww.png" alt="qww">
+            </button>
+        </div>
+        <img style="width: 160px; height: 100px" src="imag/col.png" alt="col">
+    </div>
+</div>
+<div style="margin-left: 20px; border-radius: 10px">
+    <div style="background: #F4F5FA; max-width: 340px;">
+        <div style="margin-left: 40px; margin-top: 60px;"><br/>Акция<br/></div>
+        <div style="display: flex; flex-direction: row; justify-content: center">
+            <img style="width: 90px; height: 75px;" src="imag/asdd.png" alt="asdd">
+            <div>Обгонная муфта <br/>
+                гидротрансформатор<br/>
+                BW-SP-2 SONNAX<br/>
+                <span style="color: #FFB800;">4 430₽ <s style="color: #C2C5DA">5 430₽</s></span>
+                <button class="buyButton">
+                    <img src="imag/teleshka.png" alt="teleshka">
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 <div style="margin-left: 1400px; margin-top: -420px">
@@ -105,8 +157,22 @@
     </div>
 </div>
 
-
-<div style="display: flex; flex-direction: row; justify-content: center">
+<div id="mobileRecommendations">
+    <div style="display: flex; flex-direction: row">
+    <div style="display: flex; flex-direction: row; border: 1px solid grey; border-radius: 6px; width: 430px; justify-content: center; margin-right: 20px;">
+        <div style="margin-top: 40px; margin-right: 40px; margin-left: 40px">
+            <b>Масла</b> <br/>
+            Трансмиссионное масло;<br/>
+            присалка в масло акпп
+            <button class="goButton">Перейти</button>
+        </div>
+        <div>
+            <img src="imag/pov.png" height="202" width="154"/>
+        </div>
+    </div>
+</div>
+</div>
+<div id="recommendations" style="flex-direction: row; justify-content: center">
     <div style="display: flex; flex-direction: row">
         <div style="display: flex; flex-direction: row; border: 1px solid grey; border-radius: 6px; width: 430px; justify-content: center; margin-right: 20px;">
             <div style="margin-top: 40px; margin-right: 40px; margin-left: 40px">
@@ -148,12 +214,15 @@
     </div>
 </div>
 
-<div style="margin-top: 100px; margin-left: 150px">
+<div id="buttons"style="margin-top: 100px; margin-left: 150px">
     <button class="whoButton">Подборки товаров</button>
     <button class="iButton">Акции</button>
     <button class="youButton">Сейчас покупают</button>
 </div>
-
+<div id="mobileButtons">
+    <button class="whoButton">Подборки товаров</button>
+    <button class="iButton">Акции</button>
+</div>
 <div style="display: flex; flex-direction: row; justify-content: center" class="marginBlock">
     <div>
         <img src="imag/lk.png" height="216" width="260"/>
@@ -430,23 +499,23 @@
     </div>
     <div style="margin-left: 60px; color:#868DAC">
         <div style="display: flex">
-        <div>
-            <b>КОНТАКТЫ</b>
-            <div style="color: #FBFBFC">
-                +7 383 291 92 86
-                <br/>
-                info@avt-zap.ru
+            <div>
+                <b>КОНТАКТЫ</b>
+                <div style="color: #FBFBFC">
+                    +7 383 291 92 86
+                    <br/>
+                    info@avt-zap.ru
+                </div>
+            </div>
+            <div style="margin-left: 10px;">
+                <b>АДРЕС</b>
+                <div style="color: #FBFBFC">
+                    г. Новосибирск,
+                    <br/>
+                    ул. Планировочная, 5, офис 105
+                </div>
             </div>
         </div>
-        <div style="margin-left: 10px;">
-            <b>АДРЕС</b>
-            <div style="color: #FBFBFC">
-                г. Новосибирск,
-                <br/>
-                ул. Планировочная, 5, офис 105
-            </div>
-        </div>
-    </div>
         <div style="color:#868DAC">
             <br/>
             <br/>
