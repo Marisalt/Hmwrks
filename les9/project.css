@@ -286,6 +286,16 @@
     border-radius: 0px 6px 6px 0px;
     color: white;
 }
+#mobileEmailSendButton{
+    width: 100px;
+    height: 40px;
+    left: 1460px;
+    top: 2789px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 12px;
+    color: white;
+}
 @media only screen and (max-width: 1280px) and (max-width: 1920px) {
 
 }
