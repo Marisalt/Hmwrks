@@ -246,18 +246,45 @@
 .socialRefs img {
     margin-left: 30px;
 }
-#mobileSalo {
-    display: none;
-    justify-content: center;
-    margin-top: 10px;
+#mobileSalo button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #005BB9;
+    border: 2px solid #005BB9;
+    border-radius: 8px;
+    background: white;
 }
 #mobileSalo button{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
     color: #005BB9;
+    border: 2px solid #005BB9;
+    border-radius: 8px;
+    background: white;
+}
+
+#mobileNews {
+    display: none;
+}
+#news {
+    display: block;
+}
+
+#siteFooter {
+    display: block;
+}
+
+#mobileFooter {
+    display: none;
+}
+#emailSendButton{
+    width: 177px;
+    height: 40px;
+    left: 1460px;
+    top: 2789px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
 }
 @media only screen and (max-width: 1280px) and (max-width: 1920px) {
 
@@ -329,6 +356,20 @@
         display: none;
     }
     #mobileSalo {
+        display: flex;
+        justify-content: center;
+    }
+    #mobileNews {
+        display: block;
+    }
+    #news {
+        display: none;
+    }
+    #siteFooter {
+        display: none;
+    }
+
+    #mobileFooter {
         display: block;
     }
 }
